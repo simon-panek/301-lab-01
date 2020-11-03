@@ -1,0 +1,62 @@
+@media (min-width: 960px) {
+  #a {
+    background-color: darkred;
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  #b {
+    background-color: darkorange;
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
+  }
+  
+  #c {
+    background-color: rgb(169, 169, 77);
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+  
+  #d {
+    background-color: darkgreen;
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+  
+  #e-h-section{
+    box-sizing: border-box; 
+  }
+  
+  .e-h{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+  
+  #e {
+    background-color: darkblue;
+  }
+  
+  #f {
+    background-color: rgb(55, 12, 85);
+  }
+  
+  #g {
+    background-color: rgb(136, 82, 136);
+  }
+  
+  #h {
+    background-color: rgb(159, 154, 154);
+  }
+  
+  #i {
+    background-color: rgb(53, 52, 52);
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+  }
+}

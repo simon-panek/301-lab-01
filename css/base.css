@@ -1,0 +1,22 @@
+
+header, main, footer, body, section, div{
+  box-sizing: border-box;
+  max-width: 480px;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i{
+  border: solid black 1px;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+}
+
+@media (min-width: 960px){
+  header, main, footer, body, section, div{
+    max-width: 960px;
+  }
+
+  body{
+    margin: auto;
+  }
+}
