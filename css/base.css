@@ -11,7 +11,7 @@ header, main, footer, body, section, div{
   text-align: center;
 }
 
-@media (min-width: 960px){
+@media (min-width: 768px){
   header, main, footer, body, section, div{
     max-width: 960px;
   }
