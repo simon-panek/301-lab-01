@@ -1,3 +1,4 @@
+
 header, main, footer, body, section, div{
   box-sizing: border-box;
   max-width: 480px;
@@ -10,3 +11,12 @@ header, main, footer, body, section, div{
   text-align: center;
 }
 
+@media (min-width: 960px){
+  header, main, footer, body, section, div{
+    max-width: 960px;
+  }
+
+  body{
+    margin: auto;
+  }
+}
