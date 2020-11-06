@@ -28,12 +28,16 @@
 
 #e-h-section{
   box-sizing: border-box; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .e-h{
   width: 240px;
   height: 250px;
   line-height: 250px;
+ 
 }
 
 #e {
