@@ -18,67 +18,65 @@ body {
 
   #b-iSection {
     display: flex;
+    flex-basis: 960px;
     flex-direction: row;
-    flex-wrap: wrap;
-    border: solid yellow 5px;
+    flex-wrap: nowrap; 
+    box-sizing: border-box;
 
   }
   
   #bSection{
-    flex:1;
-    border: solid orange 5px;
+    flex-basis: 1;
+    box-sizing: border-box;
   }
 
   #b {
     background-color: darkorange;
-   
-    /* min-width: 200px; */
+    flex: auto;
+    max-width: 200px;
     height: 600px;
     line-height: 600px;
-    
+    box-sizing: border-box;
   }
 
   #c-iSection{
-    flex:4;
-    border: solid red 5px;
+    box-sizing: border-box;
   }
   
   #c-dDiv {
-    flex: 4;
-    display: flex;
     flex-direction: row;
-    border: solid lime 5px;
+    box-sizing: border-box;
   }
 
   
   #c {
     background-color: rgb(169, 169, 77);
-    flex: 2;
+    width: 380px;
     height: 200px;
     line-height: 200px;
+    box-sizing: border-box;
   }
   
   #d {
     background-color: darkgreen;
-    flex: 2;
+    width: 380px;
     height: 200px;
     line-height: 200px;
+    box-sizing: border-box;
   }
   
   #e-h-section{
     box-sizing: border-box;
-    flex: 4; 
     display: flex;
     flex-wrap: nowrap;
-    border: solid rgb(245, 125, 145);
+    box-sizing: border-box;
   
   }
   
   .e-h{
-    width: 19.79%;
+    width: 190px;
     height: 250px;
     line-height: 250px;
-    flex:1;
   }
   
   #e {
@@ -99,7 +97,7 @@ body {
   
   #i {
     background-color: rgb(53, 52, 52);
-    flex:4;
+    width: 760px;
     height: 150px;
     line-height: 150px;
   }
@@ -107,71 +105,103 @@ body {
 
 @media (min-width: 1200px) {
   #a {
-    background-color: rgb(85, 4, 4);
+    background-color: rgb(97, 3, 3);
     color: white;
     width: 100%;
     height: 100px;
     line-height: 100px;
   }
-  
-  #b {
-    background-color: rgb(179, 101, 6);
-    color: white;
-    width: 20.83%;
-    height: 600px;
-    line-height: 600px;
+
+  #b-iSection {
+    display: flex;
+    flex-basis: 960px;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    box-sizing: border-box;
+
   }
   
-  #c {
-    background-color: rgb(109, 109, 37);
+  #bSection{
+    flex-basis: 1;
+    box-sizing: border-box;
+  }
+
+  #b {
+    background-color: rgb(165, 94, 7);
     color: white;
-    width: 39.58%;
+    flex: auto;
+    max-width: 200px;
+    height: 600px;
+    line-height: 600px;
+    box-sizing: border-box;
+  }
+
+  #c-iSection{
+    box-sizing: border-box;
+  }
+  
+  #c-dDiv {
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+  
+  #c {
+    background-color: rgb(113, 113, 58);
+    color: white;
+    width: 380px;
     height: 200px;
     line-height: 200px;
+    box-sizing: border-box;
   }
   
   #d {
-    background-color: rgb(4, 65, 4);
+    background-color: rgb(3, 74, 3);
     color: white;
-    width: 39.58%;
+    width: 380px;
     height: 200px;
     line-height: 200px;
+    box-sizing: border-box;
   }
   
   #e-h-section{
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+  
   }
   
   .e-h{
-    width: 19.79%;
+    width: 190px;
     height: 250px;
     line-height: 250px;
   }
   
   #e {
-    background-color: rgb(6, 6, 89);
+    background-color: rgb(3, 3, 84);
     color: white;
   }
   
   #f {
-    background-color: rgb(34, 8, 53);
+    background-color: rgb(35, 8, 55);
     color: white;
   }
   
   #g {
-    background-color: rgb(84, 43, 84);
+    background-color: rgb(87, 52, 87);
     color: white;
   }
   
   #h {
-    background-color: rgb(109, 104, 104);
+    background-color: rgb(85, 83, 83);
     color: white;
   }
   
   #i {
     background-color: black;
     color: white;
-    width: 79.16%;
+    width: 760px;
     height: 150px;
     line-height: 150px;
   }
